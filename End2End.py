@@ -30,3 +30,4 @@ driver.find_element(By.XPATH, "//input[@type='submit']").click()
 message = driver.find_element(By.XPATH, "//div[@class='alert alert-success alert-dismissible']").text
 assert "Success! Thank you!" in message
 print(message)
+print(message)
